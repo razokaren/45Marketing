@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Ejercicio en el que se desplaza un corredor de punto a punto">
+        <meta name="author" content="Francesc Ricart">
+        <title>Pokemon corredor</title>
+        
+        <style>
+            *{margin:0;padding:0;box-sizing:border-box;}
+            .contenedor{
+                margin:auto;
+                width:700px;
+                height:600px;
+                position:relative;
+                border:1px solid #000;
+                background:url(refresco.jpg) no-repeat 0 0;
+            }
+            
+            .corredor{
+                width:100px;
+                height:100px;
+                background:url(coca.jpg) no-repeat 0 0;
+                position:absolute;
+                bottom:0;
+            }
+            
+        </style>      
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="corredor"></div>        
+        </div>
+</body>
+</html>
+
+           <script language="javascript" type="text/javascript">
+
+            cript>
+        window.onload=init;
+        function init(){
+            setInterval(mover,10);
+            izquierda  = 5;
+        }
+           
+        function mover(){
+            izquierda++;
+            if (izquierda<550){
+                document.querySelector(".corredor").style.left = izquierda + 'px';
+            }else{
+                izquierda = 5;
+            }      
+        }   
+           
+        </script>
+       <ul>
+    <li><a href="index.html">index</a></li>
+<li><a href="Formulario.html">Inicio</a></li>
+<li><a href="hoja 1.html">Opinion de marketing</a></li>
+<li><a href="HOJAA 3.html">Cuanto se gana</a></li>
+                <li><a href="2 HOJA.html">Datos personales y curiosidad</a></l>
+                    </ul></li>
+                     <li><a href="Marketing creativo.html">Marketing creativo</a></li>
+            <li><a href="https://outlook.office.com/mail/inbox">Contacto</a></li>
+  </ul>
+</div>
